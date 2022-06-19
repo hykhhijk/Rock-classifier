@@ -102,7 +102,7 @@ print("Valid: ", model.evaluate(X_test, y_test))
 <p align="center"><img src="https://user-images.githubusercontent.com/58303938/174474276-e772386f-584c-41b9-96b4-525bf0c202b8.png"width="720" height="480"> </p>
 ResNet의 Skip-connection을 사용한 결과 약95까지 정확도가 올랐다.
 
-#Image augmentation
+# Image augmentation  
 Albumentations를 사용하여 이미지를 증강하였다.
 <p align="center"><img src="https://user-images.githubusercontent.com/58303938/174474254-1a05c00d-0f41-4f34-8d01-264e58016166.png"width="720" height="480"> </p>
 
