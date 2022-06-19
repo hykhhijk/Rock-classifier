@@ -1,6 +1,6 @@
 # Rock-classifier
 Rock classifier using CNN  
-
+4개의 암석(Leonardite, Lignite, Charcoal, Waste)을 같은 환경에서 최대한의 정확도를 내는 모델을 만드는 프로젝트이다.  
 __이미지 샘플__  
 <p align="center"><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FyDEk6%2FbtrE6xSTgYO%2FHntgGkPSg8ygbCuJGirkaK%2Fimg.png"></p>
 
@@ -100,7 +100,7 @@ print("Valid: ", model.evaluate(X_test, y_test))
 ```
 
 <p align="center"><img src="https://user-images.githubusercontent.com/58303938/174474276-e772386f-584c-41b9-96b4-525bf0c202b8.png"width="720" height="480"> </p>
-ResNet의 Skip-connection을 사용한 결과 약95까지 정확도가 올랐다.
+ResNet의 Skip-connection을 사용한 결과 약95%의 정확도.
 
 # Image augmentation  
 Albumentations를 사용하여 이미지를 증강하였다.
