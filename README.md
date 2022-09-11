@@ -108,6 +108,6 @@ Albumentations를 사용하여 이미지를 증강하였다.
 
 
 <p align="center"><img src="https://user-images.githubusercontent.com/58303938/174474283-133a1779-8065-4200-af25-14bc8564e1c6.png"width="720" height="480"> </p>
-데이터를 증강시킨 후 성능이 원하는 수준에 도달하였다.
+데이터를 증강시킨 후 성능이 눈에 띄게 좋아졌다. 최종 제출 시에는 데이터를 보간법을 다르게 적용한 데이터셋에 증강법을 적용시켰다.
 
 
